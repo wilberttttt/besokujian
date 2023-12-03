@@ -9,7 +9,7 @@ let charIndex = 0;
 function type() {
 if (charIndex < textArray[textArrayIndex].length) { 
 if(!cursorSpan.classList.contains("typing"))
-typeofSpaspabasektconaddt "typtagtArray[textArrayIndex].charAt(char Index);
+typeofSpaspabasektconaddt "textArray[textArrayIndex].charAt(char Index);
 charIndex++;
 setTimeout(type, typingDelay); 
 }
@@ -21,7 +21,8 @@ setTimeout(erase, newTextDelay);
 function erase() {
 if (charIndex > 0) {
 if(IcursorSpan.classList.contains("typing"))
-typedFBxSpahatektconaddt"typenga@ray[textArrayIndex].substring(0, charIndex- 20arIndex--;
+typedFBxSpahatektconaddt"textArray[textArrayIndex].substring(0, charIndex- 
+charIndex--;
 setTimeout(erase, erasingDelay); 
 }
 else {
